@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+
+#quotes {
+font-family: Georgia, serif;
+font-size: 18px;
+font-style: italic;
+width: 80%;
+margin: 0.25em 0;
+padding: 0.25em 40px;
+line-height: 1.45;
+position: relative;
+color: #383838;
+}
+
+#quotes:before {
+display: block;
+content: "\201C";
+font-size: 80px;
+position: absolute;
+left: -20px;
+top: -20px;
+color: #7a7a7a;
+}
+
+#quotes cite {
+color: #999999;
+font-size: 14px;
+display: block;
+margin-top: 5px;
+}
+ 
+#quotes cite:before {
+content: "\2014 \2009";
+}
+
+.ui-page { 
+background: #333;
+}
+
+#face {
+  text-align: center;
+  margin-left:0 auto;
+  margin-right:0 auto;
+}
+
+#brevity {
+	text-align: center;
+	margin-left:0 auto;
+  margin-right:0 auto;
+  font-family: 'Titillium Web', sans-serif;	
+  font-weight: 300;	
+}
+
+#title {
+	text-align: center;
+	margin-left:0 auto;
+  margin-right:0 auto;
+  font-family: 'Titillium Web', sans-serif;	
+  font-weight: 300; 
+}
+
+#excusing {
+	font-family: 'Titillium Web', sans-serif;	
+  font-weight: 300; 	
+}
+
+#nsfw {
+	font-size: 11px;
+	text-align: center;	
+}
+
+h4 {
+	font-family: 'Titillium Web', sans-serif;	
+  font-weight: 300;
+}
